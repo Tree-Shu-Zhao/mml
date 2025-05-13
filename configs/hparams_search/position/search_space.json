@@ -1,0 +1,3 @@
+{
+    "TARGET_MODULES": {"_type": "choice", "_value": ["q", "k", "v", "o", "qk", "qv", "qo", "kv", "ko", "vo", "qkv", "qko", "qvo", "kvo", "qkvo"]}
+}

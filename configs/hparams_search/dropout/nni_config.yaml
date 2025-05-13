@@ -1,0 +1,12 @@
+experimentName: Dropout
+trialCommand: python src/main.py experiment=mdora EXP_NOTE=nni hparams_search=nni train.PRINT_FREQ=1000
+trialConcurrency: 4
+maxTrialNumber: 1000
+searchSpaceFile: search_space.json
+trialCodeDirectory: ../../../
+trialGpuNumber: 1
+tuner:
+  name: GridSearch
+trainingService:
+  platform: local
+  useActiveGpu: True

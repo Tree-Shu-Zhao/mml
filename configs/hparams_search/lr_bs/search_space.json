@@ -1,0 +1,4 @@
+{
+    "LR": {"_type": "choice", "_value": [1e-3, 5e-3, 1e-2, 2e-2]},
+    "BATCH_SIZE": {"_type": "choice", "_value": [4, 8, 16, 32]}
+}

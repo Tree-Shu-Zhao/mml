@@ -1,0 +1,7 @@
+{
+    "SHARED_RANK": {"_type": "choice", "_value": [4, 8, 16, 32]},
+    "VISION_RANK": {"_type": "choice", "_value": [4, 8, 16, 32]},
+    "TEXT_RANK": {"_type": "choice", "_value": [4, 8, 16, 32]},
+    "TARGET_MODULES": {"_type": "choice", "_value": ["q", "k", "v", "qk", "qv", "kv", "qkv"]},
+    "ALPHA": {"_type": "choice", "_value": [0.001, 0.01, 0.1, 1.0]}
+}

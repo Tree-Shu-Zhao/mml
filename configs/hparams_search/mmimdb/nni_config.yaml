@@ -1,0 +1,12 @@
+experimentName: food101
+trialCommand: python src/main.py experiment=mdora_mmimdb dataset=food101 EXP_NOTE=nni hparams_search=nni train.PRINT_FREQ=1000 train.BATCH_SIZE=256 train.EPOCHS=20 dataset.missing_params.TYPE=both dataset.missing_params.RATIO=0.9
+trialConcurrency: 4
+maxTrialNumber: 5000
+searchSpaceFile: search_space.json
+trialCodeDirectory: ../../../
+trialGpuNumber: 1
+tuner:
+  name: TPE
+trainingService:
+  platform: local
+  useActiveGpu: True
